@@ -1,0 +1,64 @@
+.jd_container {  /* 版心 */
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    background: pink;
+    height: 1000px;
+}
+.jd_search {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.jd_search .box {
+    height: 40px;
+    min-width: 320px;
+    max-width: 640px;
+    background: rgba(201,21,35,0.85);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.jd_search .box .icon_logo {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    width: 60px;
+    height: 36px;                                   /*   位移     图片尺寸（背景图压缩解决失真问题）*/      
+    background: url("../images/sprites.png") no-repeat 0 -103px / 200px 200px;
+}
+.jd_search .box .login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff; 
+}
+.jd_search .box form {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 50px;
+    position: relative;
+}
+.jd_search .box form input {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    background: #fff;
+    border-radius: 15px;
+    padding-left: 40px;
+}
+.jd_search .box form .icon_search {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    background-position: -60px -109px;
+}
